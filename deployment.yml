@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: php-pod
+  labels:
+    name: php-pod
+    app: php-website
+
+spec:
+  containers:
+  - name: php
+    image: php:alpine
+    ports:
+      - containerPort: 70
