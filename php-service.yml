@@ -9,8 +9,8 @@ metadata:
 spec:
   type: LoadBalancer
   ports:
-    - port: 70
-      targetPort: 70
+    - port: 3000
+      targetPort: 3000
   selector:
     name: php-pod
     app: php-website
