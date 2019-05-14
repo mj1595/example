@@ -9,6 +9,6 @@ metadata:
 spec:
   containers:
   - name: php
-    image: php:alpine
+    image: php:latest
     ports:
-      - containerPort: 70
+      - containerPort: 3000
